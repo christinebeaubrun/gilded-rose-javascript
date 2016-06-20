@@ -1,10 +1,11 @@
-function Item(name, sell_in, quality) {
-  this.name = name;
-  this.sell_in = sell_in;
-  this.quality = quality;
-}
+// function Item(name, sell_in, quality) {
+//   this.name = name;
+//   this.sell_in = sell_in;
+//   this.quality = quality;
+// }
 
-var items = []
+var Item = require( './item.js' );
+var items = [];
 
 items.push(new Item('+5 Dexterity Vest', 10, 20));
 items.push(new Item('Aged Brie', 2, 0));

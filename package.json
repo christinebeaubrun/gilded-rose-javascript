@@ -1,0 +1,27 @@
+{
+  "name": "gilded-rose-javascript",
+  "version": "1.0.0",
+  "description": "gilded-rose-javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guyroyse/gilded-rose-javascript.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "christine-beaubrun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guyroyse/gilded-rose-javascript/issues"
+  },
+  "homepage": "https://github.com/guyroyse/gilded-rose-javascript#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-jasmine": "^1.0.3"
+  }
+}
