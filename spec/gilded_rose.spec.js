@@ -12,9 +12,14 @@ describe("Gilded Rose", function() {
 		var Item = require( '../src/item.js' );
 		
 		it("should create an item instance with a sell_in property", function() {
-	    var item = new Item('Aged Brie', 2, 0);
-	    expect( item.sell_in ).toEqual( 2 );
-	  });
+	    	var item = new Item('Aged Brie', 2, 0);
+	    	expect( item.sell_in ).toEqual( 2 );
+	    });
+
+	    it("should create an item instance with a quality property", function() {
+	    	var item = new Item('Aged Brie', 2, 0);
+	    	expect( item.sell_in ).toEqual( 2 );
+	    });
 	});
 
 });
